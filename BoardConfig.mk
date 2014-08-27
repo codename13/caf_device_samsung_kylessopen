@@ -139,3 +139,9 @@ SKIP_SET_METADATA := true
 TW_BRIGHTNESS_PATH := "/sys/class/leds/lcd-backlight/brightness"
 TARGET_RECOVERY_LCD_BACKLIGHT_PATH := "/sys/class/leds/lcd-backlight/brightness"
 RECOVERY_GRAPHICS_USE_LINELENGTH := true
+
+## Webkit and browser
+TARGET_FORCE_CPU_UPLOAD := true
+JS_ENGINE := v8
+HTTP := chrome
+ENABLE_JSC_JIT := true
